@@ -24,7 +24,7 @@ echo "changing directory"
 cd dist
 
 echo "starting project in directory"
-pm2 start app.js
+pm2 start App.js
 
 echo "list running apps"
 pm2 list
